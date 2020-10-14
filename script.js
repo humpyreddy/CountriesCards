@@ -38,7 +38,7 @@ var add_row = countries => {
 }
 
 weather_on_click = async (country_name,lat,lon) => {
-    var data = await fetch('http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=b488f57838bc5127d09ad8afc0acf5e1');
+    var data = await fetch('https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=b488f57838bc5127d09ad8afc0acf5e1');
     data = await data.json();
     document.getElementById(country_name).innerHTML = data.weather[0].description;
 }
