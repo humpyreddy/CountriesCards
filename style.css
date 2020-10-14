@@ -1,0 +1,25 @@
+.my-rw{
+    padding: 10px;
+    /* background-color: rgb(7, 94, 86); */
+}
+.my-crd-header{
+    /* background-color: black; */
+    /* color:white; */
+}
+
+.my-crd-body{
+    padding:10px ;
+    /* background-image: linear-gradient(to right, rgb(160, 140, 140),darkgrey ,black); */
+    /* color:white; */
+    text-align: center;
+}
+
+.my-btn{
+    background-color: inherit;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    color: blue;
+}
+p{
+    margin-top: 10px;
+}
